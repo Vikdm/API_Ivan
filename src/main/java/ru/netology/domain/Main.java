@@ -9,10 +9,10 @@ public class Main {
         post.patronymic = "Ivanovich";
         post.phone = "8(111)-111-11-11";
         post.surname = "Ivanov";
-        post.subscription = "true";
+        post.subscription = true;
         post.birthday = new FormDate();
-            post.birthday.day ="13";
-            post.birthday.month ="september";
-            post.birthday.year  ="1990";
+            post.birthday.day = 13;
+            post.birthday.month = 9;
+            post.birthday.year  = 1990;
     }
 }
